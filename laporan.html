@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 5 Metode Agile</title>
+</head>
+<link href="uty.png" rel="shortcut icon">
+
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 2px solid black;
+            width: 800px;
+            text-align: justify;
+            margin-left: 250px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .logo{
+            width: 300px;
+            height: 270px;
+        }
+        h2, h3{
+            text-align: center;
+        }
+        hr{
+            border: 1px solid black;
+        }
+        .nama_kelompok{
+            text-align: center;
+        }
+        .bab1, .p_bab1{
+            padding-left: 20px;
+        }
+        .bab2, .p_bab2{
+            padding-left: 20px;
+        }
+        .bab3, .p_bab3{
+            padding-left: 20px;
+        }
+        .tab2{
+            padding-left: 40px;
+        }
+        .tahapan_agile{
+            width: 750px;
+            height: 450px;
+        }
+        .diagramKonteks{
+            width: 750px;
+            height: 300px;
+        }
+        .database{
+            width: 800px;
+            height: 400px;
+        }
+        .login, .signUp{
+            width: 300px;
+            height: 350px;
+        }
+        .pemesanan, .daftarMobil, .jadwal, .laporanMobil{
+            width: 800px;
+            height: 450px;
+        }
+        .dfd_lv1{
+            width: 750px;
+            height: 400px;
+        }
+        .dfd_lv2{
+            width: 800px;
+            height: 450px;
+        }
+        .erd{
+            width: 750px;
+            height: 400px;
+        }
+    </style>
+
+<body>
+    <!-- COVER LAPORAN -->
+    <h2>METODE AGILE</h2>
+    <h2>DALAM PENGEMBANGAN SISTEM INFORMASI</h2>
+    <h2>APLIKASI PENGOLAHAN DATA PERPUSTAKAAN</h2>
+    <br>
+    <center><img class="logo" src="uty putih.png"></center>
+    <br>
+    <h3>Kelompok 5:</h3>
+    <p class="nama_kelompok">Muhammad Lukman Hakim     (5200411171)</p>
+    <p class="nama_kelompok">Septo Distiani Risky      (5200411191)</p>
+    <p class="nama_kelompok">Ardhian Alamsyah P.P      (5200411230)</p>
+    <p class="nama_kelompok">Dimas Aziz Hidayatulloh   (5200411321)</p>
+    <p class="nama_kelompok">Muhammad Irfannudin       (5200411342)</p>
+    <p class="nama_kelompok">Miftahul 'Azam Fajri      (5200411351)</p>
+    <br>
+    <h2>TEKNIK INFORMATIKA</h2>
+    <h2>FAKULTAS TEKNOLOGI & SAINS</h2>
+    <h2>UNIVERSITAS TEKNOLOGI YOGYAKARTA</h2>
+    <H2>2021</H2>
+ 
+    <br>
+    <hr>
+
+    <!-- BAB 1 -->
+    <h3>BAB I</h3>
+    <h3>PENDAHULUAN</h3>
+    <h4>1.1 Latar Belakang</h4>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Pengetahuan tidak hanya diperoleh dengan pengalaman secara nyata akan tetapi dapat didapatkan dari informasi yang diterima. Informasi dapat didapat dengan berbagai media, salah satunya dengan membaca buku yang terdapat pada perpustakaan. Hal ini sesuai dengan fungsi perpustakaan yaitu sebagai tempat menyimpan, mengolah, menyajikan, dan menyebarluaskan pengetahuan. </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Perpustakaan adalah suatu kesatuan unit kerja yang terdiri dari beberapa bagian yaitu, bagian pengembangan, bagian pengolahan koleksi, bagian pelayanan pengguna, dan bagian pemeliharaan sarana dan prasarana. Dengan adanya perkembangan teknologi membuat manusia berfikir untuk dapat bekerja lebih efektif dan efisien. Salah satunya yaitu membuat sistem konvensional menjadi sistem yang terkomputerisasi. Dengan menggunakan sistem yang terkomputerisasi dapat membuat pekerjaan menjadi lebih mudah karena hampir semua sistem terkomputerisasi adalah suatu sistem yang siap untuk digunakan. </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;SMA Negeri 05 Yogyakarta, yang berlokasi di Jalan Pahlawan XI Yogyakarta. Merupakan salah satu sekolah negeri yang terdapat di kota Yogyakarta. Perpustakaan pada SMA Negeri 05 Yogyakarta menyediakan berbagai jenis buku, seperti buku bacaan dan buku paket pelajaran. </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Terdapat beberapa masalah yang sering muncul, Sistem yang digunakan pada perpustakaan sekolah ini masih kurang memadai. Dimana sistem yang berjalan pada perpustakaan masih manual bagi buku bacaan sedangkan pada buku paket menggunakan Microsoft Excel dalam hal pengolahan data anggota, proses peminjaman, proses pengembalian dan laporan.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan dari permasalahan tersebut penelitian ini merancang sistem aplikasi pendataan perpustakaan berbasis web di SMA Negeri 05 Yogyakarta. Data yang diolah pada sistem ini yaitu data admin, data buku, data siswa, data jadwal pinjam, data peminjam. Aplikasi Pengolahan Data Perpustakaan berbasis web ini di bangun menggunakan bahasa pemrograman HTML, php, dengan web editornya yaitu Visual Studio Code. Pada rancangan aplikasi ini, juga menggunakan data base yaitu MySQL, dan XAMPP Control Panel v3.2.2 sebagai web server.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Dengan adanya sistem ini bertujuan untuk mempermudah admin dalam pendataan buku, pendataan siswa, pendataan peminjam buku, dan pendataan laporan peminjam buku menggunakan Aplikasi Pengolahan Data Perpustakaan berbasis web yang dibuat.</p>
+    <h4>1.2 Rumusan Masalah</h4>
+    <ol>
+        <li>Bagaimana merancang sistem Aplikasi Pengolahan Data Perpustakaan berbasis web dengan menggunakan metode Agile.</li>
+        <li>Bagaimana cara mengimplementasikan sistem Aplikasi Pengolahan Data Perpustakaan berbasis web.</li>
+    </ol>
+    <h4>1.3 Batasan Masalah</h4>
+    <ol>
+        <li>Aplikasi yang akan digunakan akan berbasis web.</li>
+        <li>Aplikasi hanya dapat dijalankan jika terkoneksi internet.</li>
+        <li>Aplikasi dapat digunakan dengan baik pada web browser Google Crhome.</li>
+    </ol>
+    <h4>1.4 Tujuan Penelitian</h4>
+    <p class="p_bab1">&nbsp;&nbsp;&nbsp;&nbsp;Manfaat dari dilakukannya penelitian ini adalah sebagai berikut :</p>
+    <ol>
+        <li>Untuk meminimalisirkan waktu yang digunakan dalam pendataan buku, pendataan siswa, dan pendataan peminjam buku.</li>
+        <li>Mempermudah admin dalam pendataan buku, pendataan siswa, pendataan peminjam buku, dan pendataan laporan.</li>
+    </ol>
+
+    <br>
+    <hr>
+
+    <!-- BAB 2 -->
+    <h3>BAB II</h3>
+    <h3>LANDASAN TEORI</h3>
+    <h4>2.1 Landasan Teori</h4>
+    <h4 class="bab2">2.2 Sistem Informasi</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Pengertian Sistem Informasi Anggreani & Irviani (2017) mengatakan sistem informasi merupakan suatu sistem dalam sebuah organisasi yang menyatukan kebutuhan pengolahan transaksi harian yang mendukung fungsi operasi organisasi yang bersifat manajerial dengan kegiatan strategi dari sebuah organisasi guna untuk menyediakan kepada pihak luar tertentu dengan informasi yang dibutuhkan untuk pengambilan sebuah keputusan.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Pengertian Sistem Informasi Wikipedia adalah kombinasi dari teknologi informasi dan aktivitas orang yang menggunakan teknologi itu untuk mendukung operasi dan manajemen. Dalam arti yang sangat luas, istilah sistem informasi yang sering digunakan merujuk kepada interaksi antara orang, proses algoritmik, data, dan teknologi. Dalam pengertian ini, istilah ini digunakan untuk merujuk tidak hanya pada penggunaan organisasi teknologi informasi dan komunikasi (TIK), tetapi juga untuk cara di mana orang berinteraksi dengan teknologi ini dalam mendukung proses bisnis.</p>
+   
+    <h4 class="bab2">2.3 Aplikasi Berbasis Web</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Menurut O’Brien (2010, p157), Web service merupakan komponen software yang berbasis framework web dan standar object-oriented dan teknologi untuk penggunaan web yang secara elektronik menghubungkan aplikasi user yang berbeda dan platform yang berbeda. Web service dapat menghubungkan fungsi bisnis untuk pertukaran data secara real time dalam aplikasi berbasis web.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Menurut Simarmata (2010, p185), aplikasi berbasis web adalah sistem perangkat lunak yang berdasarkan pada teknologi dan standar World Wide Web Consortium (W3C). Mereka menyediakan sumber daya web spesifik seperti konten dan layanan melalui sebuah antarmuka pengguna dan browser web.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Pengertian Aplikasi Berbasis Web wikipedia adalah suatu aplikasi yang diakses menggunakan penjelajah web melalui suatu jaringan seperti Internet atau intranet. Ia juga merupakan suatu aplikasi perangkat lunak komputer yang dikodekan dalam bahasa yang didukung penjelajah web (seperti ASP, Perl, Java, Java Script, PHP, Python, Ruby, dll) dan bergantung pada penjelajah tersebut untuk menampilkan aplikasi.</p>
+    
+    <h4 class="bab2">2.4 Pengertian Perpustakaan<h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Menurut Prof. Sulistyo Basuki Perpustakaan adalah sebuah ruangan, bagian sebuah Gedung ataupun gedung itu sendiri yang digunakan untuk menyimpan buku dan terbitan lainnya yang biasanya disimpan menurut tata susunan tertentu untuk digunakan pembaca, bukan untuk dijual. Dalam pengertian buku dan terbitan lainnya termasuk di dalamnya semua bahan cetak, buku, majalah, laporan, pamflet, prosiding, manuskrip (naskah), lembaran musik, berbagai karya musik, berbagai karya media audio visual seperti film, slid ( slide), kaset, piringan hitam, bentuk mikro seperti mikrofilm, mikrofis, dan mikro buram ( micro opaque ). Webster menyatakan bahwa perpustakaan merupakan kumpulan buku, manuskrip, dan bahan pustaka lainnya yang digunakan untuk keperluan studi `atau bacaan, kenyamanan, atau kesenangan.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Menurut Deputi II Perpusnas RI  “Perpustakaan sekolah merupakan salah satu sumber penting dalam upaya mendukung proses peningkatan mutu pendidikan di sekolah. Melalui perpustakaan banyak informasi yang dapat digali dan dimanfaatkan untuk kepentingan pendidikan. Perpustakaan diharapkan dapat memainkan fungsinya sebagai wahana pendidikan, penelitian pelestarian, informasi, dan rekreasi untuk meningkatkan kecerdasan bangsa.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Perpustakaan Menurut UU NO 43. THN. 2007 Perpustakaan adalah institusi yang mengumpulkan pengetahuan tercetak dan terekam, mengelolanya dengan cara khusus guna memenuhi kebutuhan intelektualitas para penggunanya melalui berbagai cara interaksi pengetahuan.</p>
+    
+    <h4 class="bab2">2.5 Bahasa Pemrograman<h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Bahasa pemrograman, atau sering diistilahkan juga dengan bahasa komputer atau bahasa pemrograman komputer, adalah instruksi standar untuk memerintah komputer. Bahasa pemrograman ini merupakan suatu himpunan dari aturan sintaks dan semantik yang dipakai untuk mendefinisikan program komputer. Bahasa ini memungkinkan seorang programmer dapat menentukan secara persis data mana yang akan diolah oleh komputer, bagaimana data ini akan disimpan/diteruskan, dan jenis langkah apa yang akan diambil dalam berbagai situasi secara persis.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Menurut tingkat kedekatannya dengan mesin komputer, bahasa pemrograman terdiri dari:</p>
+    <ol>
+        <li>Bahasa Mesin, yaitu memberikan perintah kepada komputer dengan memakai kode bahasa biner, contohnya 01100101100110</li>
+        <li>Bahasa Tingkat Rendah, atau dikenal dengan istilah bahasa rakitan (Assembly), yaitu memberikan perintah kepada komputer dengan memakai kode-kode singkat (kode mnemonic), contohnya kode_mesin|MOV, SUB, CMP, JMP, JGE, JL, LOOP, dsb.</li>
+        <li>Bahasa Tingkat Menengah, yaitu bahasa komputer yang memakai campuran instruksi dalam kata-kata bahasa manusia (lihat contoh Bahasa Tingkat Tinggi di bawah) dan instruksi yang bersifat simbolik, contohnya {, }, ?, <<, >>, &&, ||, dsb.</li>
+        <li>Bahasa Tingkat Tinggi, yaitu bahasa komputer yang memakai instruksi berasal dari unsur kata-kata bahasa manusia, contohnya begin, end, if, for, while, and, or, dsb. Komputer dapat mengerti bahasa manusia itu diperlukan program compiler atau interpreter.</li>
+    </ol>
+   
+    <h4 class="bab2">2.6 Diagram Jenjang<h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Menggambarkan struktur dari sistem Berupa suatu bagan berjenjang yang menggambarkan semua semua proses yang ada disistem. Dipergunakan untuk mempersiapkan penggambaran DFD ke level lebih bawah lagi.</p>
+
+    <h4 class="bab2">2.7 Diagram Konteks<h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Diagram konteks adalah diagram yang mencakup masukan-masukan dasar, sistem umum dan keluaran, diagram ini merupkan tingkatan tertinggi dalam diagram aliran data dan hanya memuat satu proses, menunjukan sistem secara keseluruhan, diagram tersebut tidak memuat penyimpanan dan penggambaran aliran data yang sederhana, proses tersebut diberi nomor nol. Semua entitas ekternal yang ditunjukan pada diagram konteks berikut aliran data-aliran data utama menuju dan dari sistem.</p>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Adapun simbol-simbol Diagram konteks adalah sebagai berikut :</p>
+    <center><img class="diagramKonteks" src="diagramKonteks.jpg"></center>
+
+    <h4 class="bab2">2.8 DFD<h4>
+        <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;DFD (Data Flow Diagram) adalah suatu langkah atau metode untuk membuat sebuah perancangan sistem yang mana berorientasi pada alur data yang bergerak kesebuah sistem lainnya. </p>
+        <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Dalam membuat Sistem Informasi ini, DFD sering dipakai. DFD dibuat oleh para analis untuk membuat sebuah sistem dengan baik. Dimana DFD ini nantinya dikasihkan kepada para programmer untuk memulai proses coding. Yang mana para programmer ini melakukan sebuah coding sesuai dengan DFD yang dibuat oleh para analis sebelumnya.</p>
+        <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Berikut ini simbol-simbol DFD (Data Flow Diagram) didalam tabel berikut.</p>
+        <center><img class="simbolDFD" src="simbolDFD.png"></center>
+    
+    <h4 class="tab2">1) Perencanaan</h4>
+    <p class="tab2">&nbsp;&nbsp;&nbsp;&nbsp;Perencanaan adalah tahap dimana tim akan mengidentifikasi dan menentukan scope atau ruang lingkup yang perlu dilakukan dalam proses pengembangan proyek. Pada tahap ini, tim juga akan mengumpulkan semua informasi yang dibutuhkan dalam proses pengembangan software dari para pemangku kepentingan. Setelah itu, tim akan merencanakan struktur tim, time frame, budget, security, dan berbagai faktor penting lain yang dibutuhkan untuk pengembangan software.</p>
+    <h4 class="tab2">2) Implementasi</h4>
+    <p class="tab2">&nbsp;&nbsp;&nbsp;&nbsp;Dalam fase ini, proses pengembangan software dimulai. Jadi, tim pengembang akan mulai membangun seluruh sistem dengan menulis kode menggunakan bahasa pemrograman yang dipilih. Tahapan SDLC ini dapat dikatakan sebagai fase terpanjang dari proses pengembangan software.</p>
+    <p class="tab2">Untuk pengerjaan proyek besar, proses pengembangan software biasanya akan dibagi menjadi beberapa unit atau modul kemudian ditugaskan ke beberapa tim pengembang. Database admin akan membuat data yang diperlukan dalam database, front-end developer bertugas membuat UI dan GUI untuk berinteraksi dengan back-end. Proses pengembangan software tersebut akan dilakukan berdasarkan pedoman dan prosedur yang sudah ditentukan sebelumnya. </p>
+    <h4 class="tab2">3) Testing</h4>
+    <p class="tab2">&nbsp;&nbsp;&nbsp;&nbsp;Tahapan SDLC ini akan melibatkan para software Quality Assurance (QA) untuk melakukan pengujian pada sistem dan menilai apakah software dapat bekerja sesuai dengan fungsionalitas yang diharapkan. Tim QA akan menguji semua area software untuk memastikan bahwa sistem terbebas dari cacat, error, ataupun bug. Jika ternyata masalah ditemukan di dalam software yang dikembangkan, maka tim QA akan menginformasikannya dengan tim pengembang agar perbaikan dapat segera dilakukan.  Proses ini berlanjut hingga software benar-benar terbebas dari bug, bekerja stabil, dan berfungsi sesuai harapan.</p>
+    <h4 class="tab2">4) Deployment</h4>
+    <p class="tab2">&nbsp;&nbsp;&nbsp;&nbsp;Setelah fase pengujian perangkat lunak selesai dan tidak ada bug yang tersisa pada sistem, maka tahap implementasi dapat dimulai. Tahap ini biasanya juga disebut sebagai tahap deployment. Tujuan dari tahap ini adalah untuk men-deploy perangkat lunak ke lingkungan produksi sehingga users dapat mulai menggunakannya.</p>
+    <p class="tab2">Fase ini melibatkan penginstalan aktual dari sistem yang baru dikembangkan. Untuk proyek sederhana, contoh deployment seperti menerapkan kode ke server web. Sedangkan untuk proyek pengembagan software berskala besar, deployment akan melibatkan proses integrasi dengan banyak sistem berbeda.</p>
+    <p class="tab2">Meskipun demikian, banyak perusahaan memilih agar produk akhir dapat pertama kali dirilis dalam segmen terbatas dan diuji di lingkungan bisnis (UAT-User Acceptance Testing) sebelum benar-benar dirilis ke pasar. Hal ini juga dilakukan untuk meminimalisir adanya masalah yang ditemukan oleh users setelah produk dirilis ke pasar.</p>
+    <h4 class="tab2">5) Pemeliharaan</h4>
+    <p class="tab2">&nbsp;&nbsp;&nbsp;&nbsp;Tahapan SDLC yang terakhir adalah proses maintenance atau pemeliharaan software. Di tahap ini, tim akan melakukan pemeliharaan sistem dan rutin melakukan pembaruan agar kinerja software tetap dapat optimal.</p>
+    <p class="tab2">Biasanya beberapa aktivitas maintenance yang dilakukan adalah:</p>
+    <ol>
+        <li>Perbaikan bug: perbaikan bug ketika ada masalah yang dilaporkan</li>
+        <li>Upgrade sistem : meningkatkan kinerja software dengan sistem yang lebih baru</li>
+        <li>Peningkatan fitur: menambahkan fitur atau fungsionalitas pada pada software yang dikembangkan </li>
+    </ol>
+    <h4 class="bab2">1.3 Sistem</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Sistem yaitu sekumpulan jaringan atau elemen yang saling berhubungan dan bekerja sama dalam memproses inputan yang ditunjukan kepada sistem untuk melakukan suatu kegiatan atau menyelesaikan suatu sasaran tertentu dan mengolah inputan hingga menghasilkan keluaran yang diinginkan.</p>
+    <h4 class="bab2">1.4 Informasi</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Informasi dapat diartikan sebagai suatu kumpulan dari beberapa data yang didapatkan berdasarkan fakta dan kemudian diolah menjadi informasi yang lebih beguna serta lebih berarti bagi yang siapa pun yang menerima informasi tersebut.</p>
+    <h4 class="bab2">1.5 Sistem Informasi</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Sistem Informasi adalah kumpulan dari komponen sistem yang saling bekerjasama antara satu sama lain dan untuk mencapai suatu tujuan yaitu mengolah data menggunakan perangkat keras dan perangkat lunak agar menghasilkan informasi yang bermanfaat dalam pengambilan keputusan.</p>
+    <h4 class="bab2">1.6 Penyewaan</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Penyewaan diartikan sebagai pemakaian sesuatu barang atau pun jasa dengan cara membayar uang sewa terebih dahulu. Dalam pengertian lainnya penyewaan adalah proses menyewakan. Yang dimaksud dengan sewa adalah meminjamkan suatu barang atau jasa, namun harus dibayar terlebih dahulu sebelum bisa digunakan. sesuai dengan kontrak perjanjian yang tertera pada peraturan penyedia jasa penyewaan yang ada.</p>
+    <h4 class="bab2">1.7 Website</h4>
+    <p class="p_bab2">&nbsp;&nbsp;&nbsp;&nbsp;Website merupakan sebuah media atau halaman informasi yang disediakan khusus untuk pengguna internet sehingga bisa diakses dimana pun dan kapan pun selama terkoneksi dengan jaringan internet. Webiste juga merupakan komponen atau kumpulan komponen yang di dalamnya terdapat teks, gambar, suara, animasi, sehingga menjadi media informasi yang sangat menarik untuk dikunjungi.</p>
+ 
+    <br>
+    <hr>
+
+    <!-- BAB III -->
+    <h3>BAB III</h3>
+    <h3>PERENCANAAN KEBUTUHAN DAN DESAIN SISTEM</h3>
+    <h4>1. Perencanaan Kebutuhan</h4>
+    <h4 class="bab3">1.1 Identifikasi Masalah</h4>
+    <ol>
+        <li>Penyewaan mobil memiliki daftar harga yang bervariasi menurut jenis mobil dan waktu lamanya menyewa mobil tersebut.</li>
+        <li>Saat ini calon penyewa masih harus datang langsung ke kantor atau menghubungi lewat telepon untuk menanyakan mobil yang tersedia, booking, hingga pembayaran langsung ditempat.</li>
+        <li>Perhitungan denda yang masih manual.</li>
+        <li>Pembuatan laporan pun masih dilakukan penghitungan dengan menggunakan Ms. Excel.</li>
+    </ol>
+    <h4 class="bab3">1.2 Kebutuhan Software</h4>
+    <p class="p_bab3">Dalam pembuatan sistem informasi penyewaan mobil ini, perangkat lunak yang digunakan adalah :</p>
+    <ol>
+        <li>Sistem operasi yang digunakan yaitu Microsoft Windows 8</li>
+        <li>Web editor yang digunakan dalam membangun aplikasi yaitu Visual Studio Code</li>
+        <li>Web server yang digunakan yaitu XAMPP Control Panel v3.2.2</li>
+        <li>Database yang digunakan yaitu MySQL</li>
+        <li>Web browser yang digunakan yaitu Google Chrome </li>
+        <li>Bahasa Pemograman yang digunakan yaitu PHP</li>
+    </ol>
+    <h4 class="bab3">1.3 Kebutuhan Hardware</h4>
+    <p class="p_bab3">Hardware yang dibutuhkan untuk merancang aplikasi sewa mobil ini yaitu :</p>
+    <p class="p_bab3"><i>5.1 Komputer :</i></p>
+    <ol>
+        <li>Proccesor Intel(R) Celeron(R) CPU N2830 @ 2.16GHz 2.16 GHz</li>
+        <li>Memory 512 MB</li>
+        <li>Harddisk 1 TB</li>
+        <li>Mouse, Keyboard, Monitir, dan Printer</li>
+    </ol>
+    <p class="p_bab3"><i>5.2 Perangkat koneksi jaringan internet :</i></p>
+    <ol>
+        <li>Modulator Demodulator (Modem)</li>
+        <li>Kabel LAN (Kabel UTP, RG45)</li>
+    </ol>
+    <h4>2. Diagram Konteks</h4>
+    <center><img class="diagramKonteks" src="diagram_konteks.jpg"></center>
+    <center><label>Gambar 1. Diagram Konteks</label></center>
+    
+    <h4>3. DFD Level 1</h4>
+    <center><img class="dfd_lv1" src="dfd_lv1.jpg"></center>
+    <center><label>Gambar 2. DFD Level 1</label></center>
+    
+    <h4>4. DFD level 2</h4>
+    <center><img class="dfd_lv2" src="dfd_lv2.jpg"></center>
+    <center><label>Gambar 3. DFD Level 2</label></center>
+
+    <h4>5. ERD</h4>
+    <center><img class="erd" src="ERD.jpg"></center>
+    <center><label>Gambar 4. ERD</label></center>
+    
+    <h4>6. Relasi Database</h4>
+    <center><img src="relasi_database.jpeg"></center>
+    <center><label>Gambar 5. Relasi Database</label></center>
+    
+    <h4>7. Desain Sistem</h4>
+    <label class="bab3"><i>Implementasi Antar Muka / User Interface</i></label>
+    <h4 class="bab3">7.1 Tampilan Login</h4>
+    <center><img class="login" src="login.jpeg"></center>
+    
+    <h4 class="bab3">7.2 Tampilan Sign Up</h4>
+    <center><img class="signUp" src="signUp.jpeg"></center>
+    
+    <h4 class="bab3">7.3 Tampilan Pemesanan</h4>
+    <center><img class="pemesanan" src="Pemesanan.png"></center>
+    
+    <h4 class="bab3">7.4 Tampilan Daftar Mobil</h4>
+    <center><img class="daftarMobil" src="Daftar Mobil.png"></center>
+    
+    <h4 class="bab3">7.5 Tampilan Jadwal</h4>
+    <center><img class="jadwal" src="Jadwal.png"></center>
+    
+    <h4 class="bab3">7.6 Tampilan laporan</h4>
+    <center><img class="laporanMobil" src="Laporan.png"></center>
+
+    <br>
+</body>
+</html>
